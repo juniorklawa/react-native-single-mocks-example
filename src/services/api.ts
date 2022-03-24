@@ -3,7 +3,7 @@ export const auth = () => {
     user: {
       name: 'John Doe',
       email: 'johndoe@gmail.com',
-      isSubscriptionActive: true,
+      isSubscriptionActive: false,
     },
   };
 };

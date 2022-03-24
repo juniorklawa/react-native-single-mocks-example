@@ -6,7 +6,7 @@ import {auth} from '../../services/api';
 
 jest.mock('../../services/api');
 
-describe('Banner component', () => {
+describe('SubscriptionCard component', () => {
   it('text should be "Active" if subscription is active', () => {
     const authMocked = mocked(auth as any);
 
